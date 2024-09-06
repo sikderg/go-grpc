@@ -23,3 +23,9 @@ The client sends requests to the gRPC server and processes the responses.
 go run server/main.go
 
 go run client/main.go
+
+#Step 1
+go mod init github.com/sikderg/go-grpc-example
+
+#step 2
+go mod tidy
